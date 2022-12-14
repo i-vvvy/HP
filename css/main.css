@@ -1001,17 +1001,20 @@ video::-webkit-media-controls {
 }
 
 .footer .container .topBox .contact {
+  font-family: Roboto;
+  font-weight: 500;
+  letter-spacing: 0;
   font-size: 24px;
-  font-weight: 600;
   margin-bottom: 20px;
 }
 
 .footer .container .topBox .contactBox .txt {
-  margin-right: 10%;
+  margin-right: 8%;
 }
 
 .footer .container .topBox .contactBox {
   display: flex;
+  letter-spacing: 0;
 }
 
 .footer .container .topBox .contactBox h4 {
@@ -1035,7 +1038,7 @@ video::-webkit-media-controls {
 
 .footer .container .topBox .bottom-gnb .menu h4 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 10px;
 }
 
@@ -1054,6 +1057,7 @@ video::-webkit-media-controls {
 }
 
 .footer .container .bottomBox .copy {
+  font-family: Roboto;
   margin-bottom: 10px;
 }
 
