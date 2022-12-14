@@ -90,6 +90,13 @@ $(function () {
 $(function () {
   var winW = $(window).width();
   var winH = $(window).height();
+  list = $('#section4 .container');
+  list.css({ width: winW + 'px', height: winH + 'px' });
+});
+
+$(function () {
+  var winW = $(window).width();
+  var winH = $(window).height();
   list = $('#section5 .container');
   list.css({ width: winW + 'px', height: winH + 'px' });
 });
