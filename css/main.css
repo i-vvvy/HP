@@ -525,7 +525,7 @@ video::-webkit-media-controls {
   font-family: Roboto;
   text-align: center;
   margin-bottom: 3%;
-  padding-top: 10%;
+  padding-top: 8%;
 }
 
 #section4 .textBox .txt {
@@ -574,8 +574,8 @@ video::-webkit-media-controls {
 }
 
 #section4 .row-1 .col {
-  padding: 20px;
-  margin: 10px 0;
+  padding: 28px;
+  margin: 1% 0;
   width: 25%;
 }
 
@@ -595,8 +595,8 @@ video::-webkit-media-controls {
 #section4 .row-2 .col {
   width: 33.3%;
   height: 200px;
-  margin-top: 20px;
-  padding: 10px 30px 60px;
+  margin-top: 1%;
+  padding: 40px 30px 40px;
 }
 
 #section4 .row-2 .col .tit {
