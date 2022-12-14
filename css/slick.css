@@ -102,10 +102,11 @@
 }
 
 .slick-next:before {
-  content: url(/img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png);
+  content: '';
+  display: none;
 }
 .slick-prev:before {
-  content: url(http://lorempixel.com/20/20/);
+  content: '';
   display: none;
 }
 
@@ -114,42 +115,20 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  margin-top: -33px;
-  width: 66px;
-  height: 66px;
+  margin-top: -20px;
+  width: 36px;
+  height: 36px;
   z-index: 999;
   outline: 0;
+  background-color: #fff;
 }
 
 .product button.slick-prev {
-  /* width: 30px;
-  height: 30px; */
-  background: url('/img/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png') center
-    no-repeat;
+  background: url('/img/arrow_prev.svg') center no-repeat;
+  opacity: 0.2;
 }
-/* .product button.slick-prev:hover {
-  width: 30px;
-  height: 30px;
-  background: url('/img/arrow_back_ios_FILL0_wght400_GRAD0_opsz48.png') center
-    no-repeat;
-} */
+
 .product button.slick-next {
-  background: url(' /img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png')
-    center no-repeat;
+  background: url(' /img/arrow_next.svg') center no-repeat;
+  opacity: 0.2;
 }
-/* .product button.slick-next:hover {
-  background: url('/img/arrow_forward_ios_FILL0_wght400_GRAD0_opsz48.png')
-    center no-repeat;
-} */
-/* .product .slide_wrap .slide_txt {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  line-height: 1.8;
-  font-weight: bold;
-  color: red;
-  text-align: center;
-  z-index: 900;
-} */
